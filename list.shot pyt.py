@@ -1,0 +1,33 @@
+L=[]
+L1=[10,20,30]
+L2=list()
+n=int(input("enter no of elements"))
+for i in range(n):
+    e=int(input("enter elements"))
+    L.append(e)
+print("elements of list_1",L)
+print("elments of list-2:",L1)
+print("elements of list-3:",L2)
+i=int(input("enter an index to insert elements:"))
+e=int(input("enter an elements to insert:"))
+L.insert(i,e)
+print("list after inserting an element:",L)
+e=int(input("enter an to count it's occurance:"))
+print("the occurance of",e,"in list:",L.count(e))
+e=int(input("enter an element to remove:"))
+print("list after removing","element from list:",L.remove)
+print("list after popping las element:",pop())
+print("lst after popping element witl index:",L.pop(1))
+print("list after reverse:",L.reverse())
+l.extend(L1)
+print("list after merging with L1:",L)
+L1.reverse()
+print("list after reverse:",L1)
+L.extend(L1)
+print("list after merging with L1:,L1)
+L1.remove()
+print("list after remove:",L1)
+L.extend(L1)
+print("list after merging with L1:",L1)
+      
+      
